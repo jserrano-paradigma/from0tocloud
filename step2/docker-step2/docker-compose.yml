@@ -1,0 +1,24 @@
+version: '3'
+services:
+  watto-backend:
+    container_name: watto-backend
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    image: watto-backend
+    ports:
+      - 8080:8080
+    networks:
+      - watto
+  watto-frontend:
+    container_name: watto-frontend
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+    image: watto-frontend
+    ports:
+      - 80:80
+    networks:
+      - watto
+networks:
+  watto:

@@ -1,0 +1,9 @@
+{
+    "code": "string",
+    "description": "string",
+    "discount": 0,
+    "enabled": true,
+    "id": 0,
+    "name": "string",
+    "validUntil": 0
+}

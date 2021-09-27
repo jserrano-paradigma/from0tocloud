@@ -1,0 +1,58 @@
+[
+	{
+		"id": "1",
+		"img": "./img/FunkoAshoka.jpg",
+		"alttext": "Asoka",
+        "description" : "Un muñeco cabezón",
+		"price": 123.45
+	},
+	{
+		"id": "2",
+		"img": "./img/FunkoBen.jpg",
+		"alttext": "Ben Solo",
+        "description" : "Un muñeco cabezón",
+		"price": 512.34
+	},
+	{
+		"id": "3",
+		"img": "./img/FunkoCaraDune.jpg",
+		"alttext": "Cara Dune",
+        "description" : "Un muñeco cabezón",
+		"price": 451.23
+	},
+	{
+		"id": "4",
+		"img": "./img/FunkoChewie.jpg",
+		"alttext": "Chewbacca",
+        "description" : "Un muñeco cabezón",
+		"price": 345.12
+	},
+	{
+		"id": "5",
+		"img": "./img/FunkoHanLeia.jpg",
+		"alttext": "Han Solo and Leia Organa",
+        "description" : "Un muñeco cabezón",
+		"price": 234.51
+	},
+	{
+		"id": "6",
+		"img": "./img/FunkoR2D2.jpg",
+		"alttext": "R2D2",
+        "description" : "Un muñeco cabezón",
+		"price": 678.90
+	},
+	{
+		"id": "7",
+		"img": "./img/FunkoObiWan.jpg",
+		"alttext": "Obi Wan Kenobi",
+        "description" : "Un muñeco cabezón",
+		"price": 67.89
+	},
+	{
+		"id": "8",
+		"img": "./img/FunkoGrogu.jpg",
+		"alttext": "The Mandalorian with The Child",
+        "description" : "Un muñeco cabezón",
+		"price": 906.78
+	}
+]

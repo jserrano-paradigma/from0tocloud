@@ -1,0 +1,27 @@
+{
+    "id": 0,
+    "item": {
+      "alttext": "string",
+      "category": {
+        "description": "string",
+        "id": 0,
+        "name": "string"
+      },
+      "description": "string",
+      "id": 0,
+      "img": "string",
+      "name": "string",
+      "photos": [
+        {
+          "alt": "string",
+          "description": "string",
+          "id": 0,
+          "name": "string",
+          "url": "string"
+        }
+      ],
+      "price": 0,
+      "status": "AVAILABLE"
+    },
+    "quantity": 0
+}

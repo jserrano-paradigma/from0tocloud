@@ -1,0 +1,15 @@
+{
+    "origin":{
+        "prourl": "http://localhost:8088",
+        "devurl": "http://localhost:3000"
+    },
+    "branches":{
+        "baseurl": "/watto/api",
+        "category": "/categories",
+        "items": "/items",
+        "login": "/login",
+        "orders": "/orders",
+        "services": "/services",
+        "users": "/users"
+    }
+}
