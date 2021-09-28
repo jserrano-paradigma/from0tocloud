@@ -31,7 +31,7 @@ El servidor JSON Server que acompaña a la aplicación se encuentra en la carpet
 Para que la aplicación consuma dicho servidor ha de configurarse lo siguiente:
 
 ```js
-//Constante de configuración endopoint de servicio ubicado en /env/properties.json
+//Constante de configuración endopoint de servicio ubicado en /env/config.js
 const baseurl = 'http://localhost:3000';
 ```
 

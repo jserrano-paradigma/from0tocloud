@@ -1,4 +1,4 @@
-<h1 align="center">Bienvenido a WATTO SHOP MONOLITH 👋</h1>
+<h1 align="center">Bienvenido a WATTO SHOP MONOLITH - STEP 0 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 	<img alt="Open JDK " src="https://img.shields.io/badge/OpenJDK-11-blue" />
