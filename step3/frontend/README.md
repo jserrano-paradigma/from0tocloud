@@ -1,7 +1,7 @@
 <h1 align="center">Bienvenido a WATTO SHOP VUE COMPONENT WEB APP 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-	<img alt="Node JS" src="https://img.shields.io/badge/ModeJS-15.12.1-blue" />
+	<img alt="Node JS" src="https://img.shields.io/badge/NodeJS-15.12.1-blue" />
   <img alt="Vue Cli" src="https://img.shields.io/badge/VUE-2.6.14-green" />
 	<img alt="Vue Cli" src="https://img.shields.io/badge/VUECLI-4.5.13-green" />
   <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
