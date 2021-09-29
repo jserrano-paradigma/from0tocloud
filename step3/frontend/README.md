@@ -4,8 +4,8 @@
 	<img alt="Node JS" src="https://img.shields.io/badge/NodeJS-15.12.1-blue" />
   <img alt="Vue Cli" src="https://img.shields.io/badge/VUE-2.6.14-green" />
 	<img alt="Vue Cli" src="https://img.shields.io/badge/VUECLI-4.5.13-green" />
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   <img alt="Docker Ready" src="https://img.shields.io/badge/docker-ready-green"/>
+  <img alt="License CC BY-SA" src="https://img.shields.io/badge/license-CC%20BY--SA-blue" />
 </p>
 
 > Proyectos generados usando VUE CLI 4.5.13.
