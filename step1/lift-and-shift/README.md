@@ -43,6 +43,26 @@ Recuerde que antes de levantar la aplicación debe configurar la base de datos e
 
 En caso de que solo quiera montar el frontal de la aplicación tiene la documentación para realizar la configuración de la misma en este [README.md](./src/main/resources/static/README.md).
 
+## Empaquetado y Despliegue con Docker
+
+La aplicación tiene configurado un docker para su empaquetado y distribución, para la creación de la imagen, basta con ejecutar la siguiente línea:
+
+### Imagen
+
+Para crear la imagen de la aplicación se debe ejecutar el siguiente comando:
+
+```sh
+docker build -t from0tocloud/liftandshift .
+```
+
+### Arranque de la aplicación
+
+Para arrancar la aplicación se debe ejecutar el siguiente comando:
+
+```
+docker run -d -it -p 8088:8088 from0tocloud/liftandshift
+```
+
 ## Autores
 
 👤 **Javier Serrano Herrero** 
