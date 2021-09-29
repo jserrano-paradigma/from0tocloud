@@ -1,4 +1,4 @@
-<h1 align="center">Bienvenido a WATTO SHOP BACKEND 👋</h1>
+<h1 align="center">Bienvenido a WATTO SHOP ITEM-SERVICE 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 	<img alt="Open JDK " src="https://img.shields.io/badge/OpenJDK-11-blue" />
@@ -38,7 +38,7 @@ mvn clean install -Djdk.tls.client.protocols=TLSv1.2
 mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Djdk.tls.client.protocols=TLSv1.2"
 ```
 
-El swagger de la aplicación se puede ver en 'http://localhost:8088/swagger-ui/'
+El swagger de la aplicación se puede ver en 'http://localhost:830/swagger-ui/'
 
 Recuerde que antes de levantar la aplicación debe configurar la base de datos en MongoDB cuyas colecciones se encuentran disponibles en la carpeta [mongo-collections](../../step0/mongo-collections) del [paso inicial](../../step0)
 
@@ -51,7 +51,7 @@ La aplicación tiene configurado un docker para su empaquetado y distribución, 
 Para crear la imagen de la aplicación se debe ejecutar el siguiente comando:
 
 ```sh
-docker build -t from0tocloud/liftandshift .
+docker build -t step3/item-service .
 ```
 
 ### Arranque de la aplicación
@@ -59,7 +59,7 @@ docker build -t from0tocloud/liftandshift .
 Para arrancar la aplicación se debe ejecutar el siguiente comando:
 
 ```bash
-docker run -d -it -p 8088:8088 from0tocloud/liftandshift
+docker run -d -it -p 8300:8300 step3/item-service
 ```
 
 ## Autores

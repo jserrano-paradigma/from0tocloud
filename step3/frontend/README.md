@@ -50,16 +50,23 @@ El fichero db.json está preaparado para servir la información que actualmente 
 La aplicación tiene configurado un docker para su empaquetado y distribución, para la creación de la imagen, basta con ejecutar la siguiente línea:
 
 ### Imagen
+
 ```sh
 docker build -t app .
 ```
+
 ### Despliegue
-```
+
+```bash
 docker run -d -it -p 80:80 app
 ```
 
 ## Author
 
-👤 **Carlos Alberto Tauroni Hernández** 
+👤 **Carlos Alberto Tauroni Hernández**
 
 🏢 **PARADIGMA DIGITAL**
+
+## Licencia
+
+[Creative Commons Attribution-ShareAlike 4.0 International](LICENSE.md) <img alt="License CC BY-SA" src="https://img.shields.io/badge/license-CC%20BY--SA-blue" />
