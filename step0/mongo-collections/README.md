@@ -16,10 +16,13 @@ Una vez se tenga instalada se deben cargar las colecciones:
 3. watto.item.json
 4. watto.order.json
 
-en la instancia de mongodb que se ha instalado ejecutando el comando:
+en la instancia de mongodb que se ha instalado, ejecutando los comandos:
 
 ```bash
 mongoimport --db=watto --collection=user --file=watto.user.json
+mongoimport --db=watto --collection=category --file=watto.category.json
+mongoimport --db=watto --collection=item --file=watto.item.json
+mongoimport --db=watto --collection=order --file=watto.order.json
 ```
 
 ## Autores
