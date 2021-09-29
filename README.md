@@ -6,7 +6,7 @@
 	<img alt="Apache Maven" src="https://img.shields.io/badge/Apache%20Maven-3.8.1-blue" />
   <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4.4.6-blue" />
   <img alt="Jquery" src="https://img.shields.io/badge/jquery-3.6.0-yellow" />
-  <img alt="License: CC BY" src="https://img.shields.io/badge/License-CC-BY-blueviolet.svg" />
+  <img alt="License: CC BY" src="https://img.shields.io/badge/License-CCBY-blueviolet.svg" />
   <img alt="Node JS" src="https://img.shields.io/badge/ModeJS-15.12.1-blue" />
   <img alt="Vue Cli" src="https://img.shields.io/badge/VUE-2.6.14-green" />
 	<img alt="Vue Cli" src="https://img.shields.io/badge/VUECLI-4.5.13-green" />
