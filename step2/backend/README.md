@@ -17,18 +17,22 @@
 ## Instalación y ejecución
 
 En la carpeta del proyecto ejecutar
+
 ```sh
 mvn clean install
 mvn spring-boot:run
 ```
+
 El primer comando construirá la aplicación y el segundo lo levantará en el puerto :8088
 
 En caso de estar usando windows, y obtener un error de tipo 
+
 ```sh
 javax.net.ssl.SSLHandshakeException: extension (5) should not be presented in certificate_request
 ```
 
 Ejecute los siguientes comandos para evitar el problema de certificados debido al protocolo de conexion.
+
 ```sh
 mvn clean install -Djdk.tls.client.protocols=TLSv1.2
 mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Djdk.tls.client.protocols=TLSv1.2"
@@ -42,9 +46,29 @@ Recuerde que antes de levantar la aplicación debe configurar la base de datos e
 
 En caso de que solo quiera montar el frontal de la aplicación tiene la documentación para realizar la configuración de la misma en este [README.md](./src/main/resources/static/README.md).
 
+## Empaquetado y Despliegue con Docker
+
+La aplicación tiene configurado un docker para su empaquetado y distribución, para la creación de la imagen, basta con ejecutar la siguiente línea:
+
+### Imagen
+
+Para crear la imagen de la aplicación se debe ejecutar el siguiente comando:
+
+```sh
+docker build -t from0tocloud/liftandshift .
+```
+
+### Arranque de la aplicación
+
+Para arrancar la aplicación se debe ejecutar el siguiente comando:
+
+```bash
+docker run -d -it -p 8088:8088 from0tocloud/liftandshift
+```
+
 ## Autores
 
-👤 **Javier Serrano Herrero** 
+👤 **Javier Serrano Herrero**
 
 🏢 **PARADIGMA DIGITAL**
 
