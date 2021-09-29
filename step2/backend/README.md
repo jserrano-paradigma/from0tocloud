@@ -46,6 +46,8 @@ En caso de que solo quiera montar el frontal de la aplicación tiene la document
 
 👤 **Javier Serrano Herrero** 
 
-👤 **Carlos Alberto Tauroni Hernández** 
-
 🏢 **PARADIGMA DIGITAL**
+
+## Licencia
+
+[Creative Commons Attribution-ShareAlike 4.0 International](LICENSE.md) <img alt="License CC BY-SA" src="https://img.shields.io/badge/license-CC%20BY--SA-blue" />
