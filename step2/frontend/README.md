@@ -5,8 +5,8 @@
 	<img alt="Apache Maven" src="https://img.shields.io/badge/Apache%20Maven-3.8.1-blue" />
   <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-4.4.6-blue" />
   <img alt="Jquery" src="https://img.shields.io/badge/jquery-3.6.0-yellow" />
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   <img alt="Docker Ready" src="https://img.shields.io/badge/docker-ready-green"/>
+  <img alt="License CC BY-SA" src="https://img.shields.io/badge/license-CC%20BY--SA-blue" />
 </p>
 
 > Proyectos generados usando W3 School Template, Javascript Vanilla y Jquery.
