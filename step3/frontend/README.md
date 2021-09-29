@@ -12,7 +12,9 @@
 
 ## Prerequisitos
 
-- Node JS
+- Node JS 15.12.1
+- Vue 2.6.14
+- Vue CLI 4.5.13
 
 ## Instalación y Arranque Servidor Desarrollo
 Para instalar y arrancar la aplicación hay que ejecutar
