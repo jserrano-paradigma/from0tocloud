@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/jquery-3.6.0-yellow" />
   <img src="https://img.shields.io/badge/fontAwesome-5.15.3-yellow" />
-  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  <img alt="License CC BY-SA" src="https://img.shields.io/badge/license-CC%20BY--SA-blue" />
 </p>
 
 > Proyectos generados usando W3 School Template, Javascript Vanilla y Jquery.
