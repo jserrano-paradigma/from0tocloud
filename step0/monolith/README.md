@@ -38,6 +38,12 @@ El frontal de la aplicación se empaqueta automáticamente y se levanta en 'http
 
 El swagger de la aplicación se puede ver en 'http://localhost:8088/swagger-ui/'
 
+Recuerde que antes de levantar la aplicación debe configurar la base de datos en MongoDB cuya instalación y configuración se explica en el README.md de la otra carpeta que acompaña este proyecto.
+
+// TODO: Poner enlace aqui al otro readme.
+
+En caso de que solo quiera montar el frontal de la aplicación tiene la documentación para realizar la configuración de la misma en el README.md ubicado en: './step0/monolith/src/main/resources/static'
+
 ## Autores
 
 👤 **Javier Serrano Herrero** 
